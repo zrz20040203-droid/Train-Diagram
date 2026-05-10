@@ -53,7 +53,7 @@ for d in [BASE_DIR, DIAGRAM_DIR, EVAL_DIR,
           SCHEDULE_KB_DIR, ROUTE_KB_DIR, DRAWING_KB_DIR, RULE_KB_DIR]:
     os.makedirs(d, exist_ok=True)
 
-DEEPSEEK_API_KEY  = "sk-1bd4a524b8e04859a68afb7a02d53467"
+DEEPSEEK_API_KEY  = "大王叫我来巡山请用自己的key"
 deepseek_client   = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 # ================================
